@@ -1,0 +1,33 @@
+<resources>
+
+    <style name="DarkAppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorPrimaryDark">@color/dark_primaryDark</item>
+        <item name="colorAccent">@color/dark_colorAccent</item>
+        <item name="android:windowBackground">@color/dark_theme_background</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:toolbarStyle">@style/ToolbarDark</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="DarkAppThemeNoTranslucent" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorPrimaryDark">@color/dark_primaryDark</item>
+        <item name="colorAccent">@color/dark_colorAccent</item>
+        <item name="android:windowBackground">@color/dark_theme_background</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:toolbarStyle">@style/ToolbarDark</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <!--ToolbarStyle -->
+    <style name="ToolbarDark" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+    </style>
+    <style name="ToolbarLight" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+    </style>
+
+
+
+
+</resources>

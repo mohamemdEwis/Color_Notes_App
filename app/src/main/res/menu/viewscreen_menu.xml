@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Delete"
+        android:id="@+id/viewscreen_delete"
+        android:icon="@drawable/delete_black_36px"
+        app:showAsAction="always"
+        android:orderInCategory="3"
+        android:menuCategory="secondary" />
+    <item
+        android:title="Share"
+        android:id="@+id/viewscreen_share"
+        android:icon="@drawable/share_black_36px"
+        app:showAsAction="always"
+        android:orderInCategory="2"
+        android:menuCategory="secondary"/>
+    <item
+        android:title="Lock"
+        android:id="@+id/viewscreen_lock"
+        android:icon="@drawable/lock_open_black_36px"
+        app:showAsAction="always"
+        android:orderInCategory="1"
+        android:menuCategory="secondary"/>
+
+    <item
+        android:title="Pin as Notification"
+        android:id="@+id/viewscreen_notify"
+        />
+    <item
+        android:title="Copy To Clipboard"
+        android:id="@+id/viewscreen_clipboard"
+        />
+    <item
+        android:title="Read Content Aloud"
+        android:id="@+id/viewscreen_speak"/>
+</menu>
